@@ -8,4 +8,4 @@
 
 ![Progress Bar CI](https://github.com/liununu/liununu/workflows/Progress%20Bar%20CI/badge.svg)
 
-![](https://raw.githubusercontent.com/Linran0808/Linran0808/main/assets/github-contribution-grid-snake.svg)
+![](https://raw.githubusercontent.com/seesaws/seesaws/main/assets/github-contribution-grid-snake.svg)
