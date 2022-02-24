@@ -25,3 +25,6 @@ jobs:
           git config user.email 'linran754+github-actions[bot]@users.noreply.github.com'
           git commit -am "bot: update README.md automatically"
           git push
+
+
+# GitHub Action for generating a contribution graph with a snake eating your contributions.name: Generate Snakeon:schedule:- cron: "0 0 * * *"workflow_dispatch:jobs:build:runs-on: ubuntu-lateststeps:- name: Checkoutuses: actions/checkout@v2.3.4- name: Generate Snakeuses: Platane/snk@masterid: snake-gifwith:github_user_name: ${{ github.repository_owner }}gif_out_path: ./assets/github-contribution-grid-snake.gifsvg_out_path: ./assets/github-contribution-grid-snake.svg- name: Push to GitHubuses: EndBug/add-and-commit@v7.2.1with:branch: mainmessage: 'Generate Contribution Snake'
