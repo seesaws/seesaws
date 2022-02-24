@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+![](https://raw.githubusercontent.com/Linran0808/Linran0808/main/assets/github-contribution-grid-snake.svg)
+
 <!--
 **Linran0808/Linran0808** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
