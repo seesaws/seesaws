@@ -24,6 +24,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email 'linran754+github-actions[bot]@users.noreply.github.com'
           git commit -am "bot: update README.md automatically"
+          git pull
           git push
 
 
